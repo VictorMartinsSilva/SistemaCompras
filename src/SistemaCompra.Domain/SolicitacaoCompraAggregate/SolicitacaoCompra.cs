@@ -45,7 +45,7 @@ namespace SistemaCompra.Domain.SolicitacaoCompraAggregate
 
             if (!Valido())
             {
-                throw new BusinessRuleException("A solicitação deve conter itens!");
+                throw new BusinessRuleException("A solicitação de compra deve possuir itens!");
             }
         }
 
