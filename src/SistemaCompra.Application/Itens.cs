@@ -12,7 +12,7 @@ namespace SistemaCompra.Application
         {
             _produtoRepository = produtoRepository;
         }
-        public List<SolicitacaoCompraAgg.Item> ItensConvert(List<ItemViewModel> itens)
+        public List<SolicitacaoCompraAgg.Item> ItensConvert(List<ItemDTO> itens)
         {
             var aux = new List<SolicitacaoCompraAgg.Item>();
             foreach(var item in itens)

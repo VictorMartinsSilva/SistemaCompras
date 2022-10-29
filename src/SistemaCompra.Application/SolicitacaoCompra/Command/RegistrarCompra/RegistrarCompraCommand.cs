@@ -8,6 +8,6 @@ namespace SistemaCompra.Application.SolicitacaoCompra.Command.RegistrarCompra
     {
         public string NomeFornecedor { get; set; }
         public string UsuarioSolicitante { get; set; }
-        public List<ItemViewModel> Itens { get; set; }
+        public List<ItemDTO> Itens { get; set; }
     }
 }
