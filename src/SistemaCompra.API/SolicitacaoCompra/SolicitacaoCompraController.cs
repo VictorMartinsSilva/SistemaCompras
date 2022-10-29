@@ -29,11 +29,11 @@ namespace SistemaCompra.API.SolicitacaoCompra
             }
             catch (BusinessRuleException)
             {
-                return StatusCode(500);
+                return StatusCode(401);
             }
             catch (Exception)
             {
-                return StatusCode(401);
+                return StatusCode(500);
             }
         }
     }
